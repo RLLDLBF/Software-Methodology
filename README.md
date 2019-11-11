@@ -10,6 +10,7 @@ This is the repo for Software Methodology of 2019.
 4. 具体作业要求在ppt 软件方法学作4说明.ppt
 
 # What to do?
+## My job
 学号 | 姓名 | sheet名，行号 | sheet名，行号 | sheet名，行号 | sheet名，行号 | sheet名，行号
 :-: | :-: | :-: | :-: | :-:| :-: | :-: 
 MF1933099 | 卫昱阳 | LinkedList,2 | Arrays,242 | ArrayList,2 | ArrayList,118 | Integer,102
