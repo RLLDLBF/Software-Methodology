@@ -14,3 +14,20 @@ This is the repo for Software Methodology of 2019.
 学号 | 姓名 | sheet名，行号 | sheet名，行号 | sheet名，行号 | sheet名，行号 | sheet名，行号
 :-: | :-: | :-: | :-: | :-:| :-: | :-: 
 MF1933099 | 卫昱阳 | LinkedList,2 | Arrays,242 | ArrayList,2 | ArrayList,118 | Integer,102
+
+## backup
+
+### LinkedList,2
+
+### Arrays,242
+
+### ArrayList,2
+#### java
+> ArrayList$ public Iterator<E> iterator ()
+
+#### swift
+> ContiguousArray$func makeIterator() -> IndexingIterator<ContiguousArray<Element>>
+
+### ArrayList,118
+
+### Integer,102
