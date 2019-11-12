@@ -23,10 +23,12 @@ MF1933099 | 卫昱阳 | LinkedList,2 | Arrays,242 | ArrayList,2 | ArrayList,118 
 
 ### ArrayList,2
 #### java
-> ArrayList$ public Iterator<E> iterator ()
+ArrayList$ public Iterator<E> iterator ()
 
 #### swift
-> ContiguousArray$func makeIterator() -> IndexingIterator<ContiguousArray<Element>>
+ContiguousArray$func makeIterator() -> IndexingIterator<ContiguousArray<Element>>
+
+Array$func makeIterator() -> IndexingIterator<Array<Element>>
 
 ### ArrayList,118
 
