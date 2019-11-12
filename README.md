@@ -30,5 +30,11 @@ MF1933099 | 卫昱阳 | LinkedList,2 | Arrays,242 | ArrayList,2 | ArrayList,118 
 - Array$func makeIterator() -> IndexingIterator<Array<Element>>
 
 ### ArrayList,118
+#### java
+- ArrayList$ public E remove (int index)
+
+#### swift
+- ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
+- Array$@discardableResult mutating func remove(at index: Int) -> Element
 
 ### Integer,102
