@@ -4,7 +4,7 @@ import java.util.Iterator;
 /**类名_方法名(_形参类型)
  * @author: MF1933099 卫昱阳
  *  @className: ArrayList_iterator
- *  @apiSignature: ArrayList$ public Iterator iterator ()
+ *  @apiSignature: java.util.ArrayList$ public Iterator iterator ()
  *  @description: Returns an iterator over the elements in this list in proper sequence.
  *  @Map: ContiguousArray$func makeIterator() -> IndexingIterator<ContiguousArray>
  *  @Map: Array$func makeIterator() -> IndexingIterator<Array>
@@ -19,7 +19,7 @@ public class ArrayList_iterator {
      * str4 str4="Engineering"
      * str5 str5="Group"
      * output: 1
-     * iterStr  iterStr="Nanjing University Software Engineering Group "
+     * iterStr  iterStr="Nanjing University  Software Engineering Group "
      */
     public static void iterator0(){
         System.out.println(">>>>>>>>>>>>");
@@ -52,7 +52,7 @@ public class ArrayList_iterator {
         assert (str3=="Software");
         assert (str4=="Engineering");
         assert (str5=="Group");
-        assert (iterStr.equals("Nanjing University Software Engineering Group "));
+        assert (iterStr.equals("Nanjing University  Software Engineering Group "));
 
         System.out.println(iterStr);
     }

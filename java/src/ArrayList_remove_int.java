@@ -3,22 +3,24 @@ import java.util.ArrayList;
 /**类名_方法名(_形参类型)
  * @author: MF1933099 卫昱阳
  *  @className: ArrayList_remove_int
- *  @apiSignature: ArrayList$ public E remove (int index)
+ *  @apiSignature: java.util.ArrayList$ public E remove (int index)
  *  @description: Removes the element at the specified position in this list.
  *  @Map: ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
  *  @Map: Array$@discardableResult mutating func remove(at index: Int) -> Element
 */
 public class ArrayList_remove_int {
     /**
-     * input: 6
+     * input: 8
      * str0 str0="Nanjing"
      * str1 str1="University"
      * str2 str2=""
      * str3 str3="Software"
      * str4 str4="Engineering"
      * str5 str5="Group"
+     * list list=[Nanjing, University, , Software, Engineering, Group]
+     * shortList shortList=[Nanjing, University, Software, Engineering]
      * output: 1
-     * iterStr  iterStr="Nanjing University Software Engineering Group "
+     * list  list=[Nanjing, University, Software, Engineering]
      */
     public static void remove0() {
         System.out.println(">>>>>>>>>>>>");
