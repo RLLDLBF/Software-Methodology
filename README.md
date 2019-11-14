@@ -25,6 +25,9 @@ java.util.LinkedList$ public E pollFirst ()
 #### swift
 ```
 ArraySlice$mutating func popFirst() -> Element?
+ArraySlice$@discardableResult mutating func removeFirst() -> Element
+Array$@discardableResult mutating func removeFirst() -> Element
+ContiguousArray@discardableResult mutating func removeFirst() -> Element
 ```
 
 ### Arrays,242
@@ -37,7 +40,6 @@ java.util.ArrayList$ public Iterator<E> iterator ()
 #### swift
 ```
 ContiguousArray$func makeIterator() -> IndexingIterator<ContiguousArray<Element>>
-
 Array$func makeIterator() -> IndexingIterator<Array<Element>>
 ```
 ### ArrayList,118
