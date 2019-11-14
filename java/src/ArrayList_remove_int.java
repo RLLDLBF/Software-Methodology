@@ -1,66 +1,57 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**类名_方法名(_形参类型)
  * @author: MF1933099 卫昱阳
  *  @className: ArrayList_remove_int
  *  @apiSignature: java.util.ArrayList$ public E remove (int index)
- *  @description: Removes the element at the specified position in this list.
+ *  @description: Test java api java.util.ArrayList$ public E remove (int index)
  *  @Map: ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
  *  @Map: Array$@discardableResult mutating func remove(at index: Int) -> Element
 */
 public class ArrayList_remove_int {
     /**
-     * input: 8
-     * str0 str0="Nanjing"
-     * str1 str1="University"
-     * str2 str2=""
-     * str3 str3="Software"
-     * str4 str4="Engineering"
-     * str5 str5="Group"
-     * list list=[Nanjing, University, , Software, Engineering, Group]
-     * shortList shortList=[Nanjing, University, Software, Engineering]
+     * input: 2
+     * class0 ArrayList$class0
+     * index index=2
      * output: 1
-     * list  list=[Nanjing, University, Software, Engineering]
+     * ret0 ret0=""
+     * ArrayList$class0-ArrayList$ArrayList(Collection c) & c=Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}) & https://developer.android.com/reference/java/util/ArrayList.html
      */
     public static void remove0() {
         System.out.println(">>>>>>>>>>>>");
-        ArrayList<String> list = new ArrayList<>();
-        ArrayList<String> shortList = new ArrayList<>();
+        ArrayList<String> class0 = new ArrayList<>(Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}));
+        int index=2;
 
-        String str0 = "Nanjing";
-        String str1 = "University";
-        String str2 = "";
-        String str3 = "Software";
-        String str4 = "Engineering";
-        String str5 = "Group";
+        String ret0 = class0.remove(index);
 
-        list.add(str0);
-        list.add(str1);
-        list.add(str2);
-        list.add(str3);
-        list.add(str4);
-        list.add(str5);
+        assert (ret0=="");
 
-        shortList.add(str0);
-        shortList.add(str1);
-        shortList.add(str3);
-        shortList.add(str4);
+        System.out.println(ret0);
+    }
 
-        list.remove(2);
-        list.remove(4);
+    /**
+     * input: 2
+     * class0 ArrayList$class0
+     * index index=5
+     * output: 1
+     * ret0 ret0="Group"
+     * ArrayList$class0-ArrayList$ArrayList(Collection c) & c=Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}) & https://developer.android.com/reference/java/util/ArrayList.html
+     */
+    public static void remove1() {
+        System.out.println(">>>>>>>>>>>>");
+        ArrayList<String> class0 = new ArrayList<>(Arrays.asList(new String[]{"Nanjing","University","","Software","Engineering","Group"}));
+        int index = 5;
 
-        assert (str0=="Nanjing");
-        assert (str1=="University");
-        assert (str2=="");
-        assert (str3=="Software");
-        assert (str4=="Engineering");
-        assert (str5=="Group");
-        assert (list.equals(shortList));
+        String ret0 = class0.remove(index);
 
-        System.out.println(list);
+        assert (ret0=="Group");
+
+        System.out.println(ret0);
     }
 
     public static void main(String[] args){
         ArrayList_remove_int.remove0();
+        ArrayList_remove_int.remove1();
     }
 }

@@ -2,61 +2,50 @@
 * @author: MF1933099 卫昱阳
 *  @className: ContiguousArray_remove_Int
 *  @apiSignature: ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
-*  @description: Removes and returns the element at the specified position
+*  @description: Test swift api ContiguousArray$@discardableResult mutating func remove(at index: Int)
 *  @Map: java.util.ArrayList$ public E remove (int index)
 */
 import Foundation
 
 class ContiguousArray_remove_Int{
     /**
-    * input: 8
-    * str0 str0="Nanjing"
-    * str1 str1="University"
-    * str2 str2=""
-    * str3 str3="Software"
-    * str4 str4="Engineering"
-    * str5 str5="Group"
-    * array array=["Nanjing", "University", "", "Software", "Engineering", "Group"]
-    * shortArray shortArrary=["Nanjing", "University", "Software", "Engineering"]
+    * input: 2
+    * class0 class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * index index=2
     * output: 1
-    * array  array=["Nanjing", "University", "Software", "Engineering"]
+    * ret0 ret0=""
     */
     static func remove0(){
         print(">>>>>>>>")
-        var array = ContiguousArray<String>()
-        var shortArray = ContiguousArray<String>()
+        var class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
         
-        let str0 = "Nanjing"
-        let str1 = "University"
-        let str2 = ""
-        let str3 = "Software"
-        let str4 = "Engineering"
-        let str5 = "Group"
+        let index = 2
         
-        array.append(str0)
-        array.append(str1)
-        array.append(str2)
-        array.append(str3)
-        array.append(str4)
-        array.append(str5)
-        //print(array)
-        shortArray.append(str0)
-        shortArray.append(str1)
-        shortArray.append(str3)
-        shortArray.append(str4)
+        let ret0 = class0.remove(at: index)
         
-        array.remove(at: 2)
-        array.remove(at: 4)
+        assert(ret0=="")
+        print(ret0)
+    }
+    
+    /**
+    * input: 2
+    * class0 class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * index index=5
+    * output: 1
+    * ret0 ret0=""
+    */
+    static func remove1(){
+        print(">>>>>>>>")
+        var class0:ContiguousArray = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
         
-        assert(str0=="Nanjing")
-        assert(str1=="University")
-        assert(str2=="")
-        assert(str3=="Software")
-        assert(str4=="Engineering")
-        assert(str5=="Group")
-        assert(array==shortArray)
-        print(array)
+        let index = 5
+        
+        let ret0 = class0.remove(at: index)
+        
+        assert(ret0=="Group")
+        print(ret0)
     }
 }
 
 ContiguousArray_remove_Int.remove0()
+ContiguousArray_remove_Int.remove1()

@@ -1,54 +1,32 @@
 /**类名_方法名(_形参类型)*
 * @author: MF1933099 卫昱阳
 *  @className: Array_makeIterator
-*  @apiSignature: Array$func makeIterator() -> IndexingIterator<Array>
-*  @description: Returns an iterator over the elements of the collection.
+*  @apiSignature: Array$func makeIterator() -> IndexingIterator<Array<Element>>
+*  @description: Test swift api Array$func makeIterator() 
 *  @Map: java.util.ArrayList$ public Iterator iterator ()
 */
 import Foundation
 
 class Array_makeIterator{
     /**
-    * input: 6
-    * str0 str0="Nanjing"
-    * str1 str1="University"
-    * str2 str2=""
-    * str3 str3="Software"
-    * str4 str4="Engineering"
-    * str5 str5="Group"
+    * input: 1
+    * class0 class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
-    * iterStr  iterStr="Nanjing University  Software Engineering Group "
+    * ret0 Iterator$ret0
     */
     static func makeIterator0(){
         print(">>>>>>>>")
-        var array = Array<String>()
-        let str0 = "Nanjing"
-        let str1 = "University"
-        let str2 = ""
-        let str3 = "Software"
-        let str4 = "Engineering"
-        let str5 = "Group"
-        var iterStr = ""
+        var class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
         
-        array.append(str0)
-        array.append(str1)
-        array.append(str2)
-        array.append(str3)
-        array.append(str4)
-        array.append(str5)
+        var ret0 = class0.makeIterator()
         
-        var iter = array.makeIterator()
-        while let element = iter.next(){
+        var iterStr=""
+        
+        while let element = ret0.next(){
             //print(element)
             iterStr+=element+" "
         }
         
-        assert(str0=="Nanjing")
-        assert(str1=="University")
-        assert(str2=="")
-        assert(str3=="Software")
-        assert(str4=="Engineering")
-        assert(str5=="Group")
         assert(iterStr=="Nanjing University  Software Engineering Group ")
         print(iterStr)
         

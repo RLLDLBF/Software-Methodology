@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A532C459237D3D16002E698C /* ArraySlice_popFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C458237D3D16002E698C /* ArraySlice_popFirst.swift */; };
+		A532C45B237D3E4A002E698C /* ArraySlice_removeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C45A237D3E4A002E698C /* ArraySlice_removeFirst.swift */; };
+		A532C45D237D3F16002E698C /* Array_removeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C45C237D3F16002E698C /* Array_removeFirst.swift */; };
+		A532C45F237D3FC8002E698C /* ContiguousArray_removeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C45E237D3FC8002E698C /* ContiguousArray_removeFirst.swift */; };
+		A532C461237D50A4002E698C /* NSNumber_floatValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532C460237D50A4002E698C /* NSNumber_floatValue.swift */; };
+		A549863B237D8CD9000BC9ED /* Array_sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A549863A237D8CD9000BC9ED /* Array_sort.swift */; };
+		A549863D237D9387000BC9ED /* NSMutableArray_sort_compare_context.swift in Sources */ = {isa = PBXBuildFile; fileRef = A549863C237D9387000BC9ED /* NSMutableArray_sort_compare_context.swift */; };
+		A549863F237DA00D000BC9ED /* NSMutableArray_sort_sortDescriptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A549863E237DA00D000BC9ED /* NSMutableArray_sort_sortDescriptors.swift */; };
+		A5498641237DA7AF000BC9ED /* NSMutableArray_sort_options_usingComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5498640237DA7AF000BC9ED /* NSMutableArray_sort_options_usingComparator.swift */; };
 		A5A826CD237A60AA00C2B850 /* ContiguousArray_makeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A826CC237A60AA00C2B850 /* ContiguousArray_makeIterator.swift */; };
 		A5A826D1237A8AB500C2B850 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A826D0237A8AB500C2B850 /* main.swift */; };
 		A5A826D3237A975300C2B850 /* Array_makeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A826D2237A975300C2B850 /* Array_makeIterator.swift */; };
@@ -27,6 +36,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A532C458237D3D16002E698C /* ArraySlice_popFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySlice_popFirst.swift; sourceTree = "<group>"; };
+		A532C45A237D3E4A002E698C /* ArraySlice_removeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySlice_removeFirst.swift; sourceTree = "<group>"; };
+		A532C45C237D3F16002E698C /* Array_removeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array_removeFirst.swift; sourceTree = "<group>"; };
+		A532C45E237D3FC8002E698C /* ContiguousArray_removeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContiguousArray_removeFirst.swift; sourceTree = "<group>"; };
+		A532C460237D50A4002E698C /* NSNumber_floatValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNumber_floatValue.swift; sourceTree = "<group>"; };
+		A549863A237D8CD9000BC9ED /* Array_sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array_sort.swift; sourceTree = "<group>"; };
+		A549863C237D9387000BC9ED /* NSMutableArray_sort_compare_context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableArray_sort_compare_context.swift; sourceTree = "<group>"; };
+		A549863E237DA00D000BC9ED /* NSMutableArray_sort_sortDescriptors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableArray_sort_sortDescriptors.swift; sourceTree = "<group>"; };
+		A5498640237DA7AF000BC9ED /* NSMutableArray_sort_options_usingComparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableArray_sort_options_usingComparator.swift; sourceTree = "<group>"; };
 		A5A826C2237A5D8100C2B850 /* sm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sm; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A826CC237A60AA00C2B850 /* ContiguousArray_makeIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContiguousArray_makeIterator.swift; sourceTree = "<group>"; };
 		A5A826D0237A8AB500C2B850 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -70,6 +88,15 @@
 				A5A826D2237A975300C2B850 /* Array_makeIterator.swift */,
 				A5A826D4237AA34C00C2B850 /* ContiguousArray_remove_Int.swift */,
 				A5A826D6237AA62100C2B850 /* Array_remove_Int.swift */,
+				A532C458237D3D16002E698C /* ArraySlice_popFirst.swift */,
+				A532C45A237D3E4A002E698C /* ArraySlice_removeFirst.swift */,
+				A532C45C237D3F16002E698C /* Array_removeFirst.swift */,
+				A532C45E237D3FC8002E698C /* ContiguousArray_removeFirst.swift */,
+				A532C460237D50A4002E698C /* NSNumber_floatValue.swift */,
+				A549863A237D8CD9000BC9ED /* Array_sort.swift */,
+				A549863C237D9387000BC9ED /* NSMutableArray_sort_compare_context.swift */,
+				A549863E237DA00D000BC9ED /* NSMutableArray_sort_sortDescriptors.swift */,
+				A5498640237DA7AF000BC9ED /* NSMutableArray_sort_options_usingComparator.swift */,
 			);
 			path = sm;
 			sourceTree = "<group>";
@@ -132,11 +159,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A549863F237DA00D000BC9ED /* NSMutableArray_sort_sortDescriptors.swift in Sources */,
+				A549863B237D8CD9000BC9ED /* Array_sort.swift in Sources */,
 				A5A826D1237A8AB500C2B850 /* main.swift in Sources */,
 				A5A826CD237A60AA00C2B850 /* ContiguousArray_makeIterator.swift in Sources */,
+				A532C461237D50A4002E698C /* NSNumber_floatValue.swift in Sources */,
+				A5498641237DA7AF000BC9ED /* NSMutableArray_sort_options_usingComparator.swift in Sources */,
 				A5A826D7237AA62100C2B850 /* Array_remove_Int.swift in Sources */,
+				A532C459237D3D16002E698C /* ArraySlice_popFirst.swift in Sources */,
 				A5A826D5237AA34C00C2B850 /* ContiguousArray_remove_Int.swift in Sources */,
+				A549863D237D9387000BC9ED /* NSMutableArray_sort_compare_context.swift in Sources */,
+				A532C45B237D3E4A002E698C /* ArraySlice_removeFirst.swift in Sources */,
+				A532C45D237D3F16002E698C /* Array_removeFirst.swift in Sources */,
 				A5A826D3237A975300C2B850 /* Array_makeIterator.swift in Sources */,
+				A532C45F237D3FC8002E698C /* ContiguousArray_removeFirst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
