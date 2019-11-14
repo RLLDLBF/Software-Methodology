@@ -53,3 +53,12 @@ ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Elemen
 Array$@discardableResult mutating func remove(at index: Int) -> Element
 ```
 ### Integer,102
+#### java
+```
+java.lang.Integer$ public float floatValue ()
+```
+#### swift
+```
+NSNumber$var floatValue: Float { get }
+```
+
