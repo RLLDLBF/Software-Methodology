@@ -31,7 +31,17 @@ ContiguousArray@discardableResult mutating func removeFirst() -> Element
 ```
 
 ### Arrays,242
-
+#### java
+```
+java.util.Arrays$public static void sort (T[] a, int fromIndex, int toIndex, Comparator<? super T> c)
+```
+#### swift
+```
+NSMutableArray$func sort(_ compare: (Any, Any, UnsafeMutableRawPointer?) -> Int, context: UnsafeMutableRawPointer?)
+NSMutableArray$func sort(using sortDescriptors: [NSSortDescriptor])
+NSMutableArray$func sort(options opts: NSSortOptions = [], usingComparator cmptr: (Any, Any) -> ComparisonResult)
+Array$mutating func sort()
+```
 ### ArrayList,2
 #### java
 ```
