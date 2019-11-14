@@ -33,7 +33,7 @@ ContiguousArray@discardableResult mutating func removeFirst() -> Element
 ### Arrays,242
 #### java
 ```
-java.util.Arrays$public static void sort (T[] a, int fromIndex, int toIndex, Comparator<? super T> c)
+java.util.Arrays$public static void sort (int[] a)
 ```
 #### swift
 ```
