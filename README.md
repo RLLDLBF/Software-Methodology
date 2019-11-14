@@ -19,26 +19,35 @@ MF1933099 | 卫昱阳 | LinkedList,2 | Arrays,242 | ArrayList,2 | ArrayList,118 
 
 ### LinkedList,2
 #### java
-- java.util.LinkedList$ public E pollFirst ()
+```
+java.util.LinkedList$ public E pollFirst ()
+```
 #### swift
-- ArraySlice$mutating func popFirst() -> Element?
+```
+ArraySlice$mutating func popFirst() -> Element?
+```
 
 ### Arrays,242
 
 ### ArrayList,2
 #### java
-- java.util.ArrayList$ public Iterator<E> iterator ()
-
+```
+java.util.ArrayList$ public Iterator<E> iterator ()
+```
 #### swift
-- ContiguousArray$func makeIterator() -> IndexingIterator<ContiguousArray<Element>>
-- Array$func makeIterator() -> IndexingIterator<Array<Element>>
+```
+ContiguousArray$func makeIterator() -> IndexingIterator<ContiguousArray<Element>>
 
+Array$func makeIterator() -> IndexingIterator<Array<Element>>
+```
 ### ArrayList,118
 #### java
-- java.util.ArrayList$ public E remove (int index)
-
+```
+java.util.ArrayList$ public E remove (int index)
+```
 #### swift
-- ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
-- Array$@discardableResult mutating func remove(at index: Int) -> Element
-
+```
+ContiguousArray$@discardableResult mutating func remove(at index: Int) -> Element
+Array$@discardableResult mutating func remove(at index: Int) -> Element
+```
 ### Integer,102
