@@ -10,7 +10,7 @@ import Foundation
 class Array_removeFirst{
     /**
     * input: 1
-    * class0 class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
+    * class0 Array$class0 = ["Nanjing", "University", "", "Software", "Engineering", "Group"]
     * output: 1
     * ret0 ret0="Nanjing"
     */
