@@ -2,7 +2,7 @@
 * @author: MF1933099 卫昱阳
 *  @className: Array_makeIterator
 *  @apiSignature: Array$func makeIterator() -> IndexingIterator<Array<Element>>
-*  @description: Returns an iterator over the elements of the collection.
+*  @description: Test swift api Array$func makeIterator() -> IndexingIterator<Array<Element>>
 *  @Map: java.util.ArrayList$ public Iterator iterator ()
 */
 import Foundation

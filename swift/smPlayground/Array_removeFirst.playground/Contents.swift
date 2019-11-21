@@ -2,7 +2,7 @@
 * @author: MF1933099 卫昱阳
 *  @className: Array_removeFirst
 *  @apiSignature: Array$@discardableResult mutating func removeFirst() -> Element
-*  @description: Removes and returns the first element of the collection.
+*  @description: Test swift api Array$@discardableResult mutating func removeFirst() -> Element
 *  @Map: java.util.LinkedList$ public E pollFirst ()
 */
 import Foundation
